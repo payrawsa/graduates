@@ -6,13 +6,13 @@
 button{
 
 	margin-left: 189px;
-   
-   
+
+
 }
 
 .main{
 	background: blue;
-	font-size: large; 
+	font-size: large;
 }
 
 .ublogo{
@@ -22,7 +22,7 @@ button{
 
 .twoption{
 	right: 40px;
-	
+
 }
 
 .checked {
@@ -47,7 +47,31 @@ button{
 .rating > span:hover ~ span:before {
    content: "\2605";
    position: absolute;
-   left: 0; 
+   left: 0;
    color: gold;
 }
 
+.container img {
+    width: 100%;
+    height: auto;
+}
+
+.container .btn {
+    position: relative;
+    left: 50%;
+    transform: translate(-350%, -300%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #f1f1f1;
+    color: black;
+    font-size: 16px;
+    padding: 40px 80px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.container .btn:hover {
+    background-color: black;
+    color: white;
+}
