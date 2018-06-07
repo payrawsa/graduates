@@ -5,9 +5,9 @@
 
 button{
 
-	position:fixed;
-   right:10px;
-   top:10px;
+	margin-left: 189px;
+   
+   
 }
 
 .main{
@@ -24,3 +24,9 @@ button{
 	right: 40px;
 	
 }
+
+.checked {
+    color: orange;
+}
+
+
